@@ -1,0 +1,105 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": "C:\\Users\\mrgab\\Desktop\\Windows Terminal\\lucy_transparent_HD.png",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageOpacity": 0.41,
+            "bellStyle": 
+            [
+                "window",
+                "taskbar"
+            ],
+            "colorScheme": "Dark+",
+            "cursorColor": "#3FAE3A",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "builtinGlyphs": true,
+                "cellHeight": "1.2",
+                "colorGlyphs": true,
+                "face": "JetBrains Mono",
+                "size": 12,
+                "weight": "light"
+            },
+            "opacity": 90,
+            "tabTitle": "Terminal",
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "Dark+",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "colorScheme": "Dark+",
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "Solarized Dark",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "colorScheme": "Ubuntu",
+                "guid": "{e07bab62-5d19-5c6b-846a-1abd77290345}",
+                "hidden": false,
+                "name": "Ubuntu-26.04",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": [],
+    "searchWebDefaultQueryUrl": "https://www.google.com/search?client=firefox-b-d&q=%s",
+    "showTerminalTitleInTitlebar": true,
+    "theme": "system",
+    "themes": [],
+    "warning.multiLinePaste": "always"
+}
